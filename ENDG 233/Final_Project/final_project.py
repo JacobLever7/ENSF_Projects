@@ -218,9 +218,9 @@ class Threatened_species:
 def main():
     #Import data 
     
-    country_data = pd.read_csv('ENDG 233/data_folder/Country_Data.csv', index_col='Country')
-    population_data = pd.read_csv('ENDG 233/data_folder/Population_Data.csv', index_col='Country')
-    species_data = pd.read_csv('ENDG 233/data_folder/Threatened_Species.csv', index_col='Country')
+    country_data = pd.read_csv('ENDG 233/Final_Project/data_folder/Country_Data.csv', index_col='Country')
+    population_data = pd.read_csv('ENDG 233/Final_Project/data_folder/Population_Data.csv', index_col='Country')
+    species_data = pd.read_csv('ENDG 233/Final_Project/data_folder/Threatened_Species.csv', index_col='Country')
 
     
     main_run = True
