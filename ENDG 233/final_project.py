@@ -7,6 +7,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 from pandas.core.frame import DataFrame
+import os
+
 
 class Country:
     """A class used to create a Country object.
@@ -215,6 +217,7 @@ class Threatened_species:
 
 def main():
     #Import data 
+    os.chdir("data_folder")
     country_data = pd.read_csv('Country_Data.csv', index_col='Country')
     population_data = pd.read_csv('Population_Data.csv', index_col='Country')
     species_data = pd.read_csv('Threatened_Species.csv', index_col='Country')
