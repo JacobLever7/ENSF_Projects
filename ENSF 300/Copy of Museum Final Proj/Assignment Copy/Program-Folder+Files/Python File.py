@@ -140,8 +140,9 @@ def data_entry_interface(connection):
             num = 0
             for word in field_names:
                 num += 1
-            
-            with open(r'ENSF 300/Copy of Museum Final Proj/Assignment Copy/Program-Folder+Files/data_entry.txt', 'w') as file:
+            file_path = 'ENSF 300/Copy of Museum Final Proj/Assignment Copy/Program-Folder+Files/data_entry.txt'
+
+            with open(file_path, 'w') as file:
                 i=0
                 for item in field_names:
                     if i < num-1:
@@ -169,8 +170,6 @@ def data_entry_interface(connection):
 
 
             #read new data
-            file_path = 'Program-Folder+Files/data_entry.txt'
-            
             
             data_list = open(file_path).read().splitlines()
             for string in data_list:
