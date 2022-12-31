@@ -1,0 +1,49 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "Musuemdb",
+            "database": "Museum",
+            "username": "root",
+            "password": "Pumapuma2016!",
+            "connectionTimeout": 1000
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "database": "museum",
+            "username": "root",
+            "name": "museum_data",
+            "connectionTimeout": 100,
+            "password": "Pkl#15kdxkg"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "FIXED-MUSEUMDB",
+            "database": "Museum",
+            "username": "root",
+            "password": "8ed@PT9a3brR",
+            "connectionTimeout": 1000
+        }
+    ],
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "main"
+    ]
+}
