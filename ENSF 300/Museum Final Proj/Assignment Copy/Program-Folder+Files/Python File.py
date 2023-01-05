@@ -140,7 +140,8 @@ def data_entry_interface(connection):
             num = 0
             for word in field_names:
                 num += 1
-            file_path = 'ENSF 300/Copy of Museum Final Proj/Assignment Copy/Program-Folder+Files/data_entry.txt'
+            
+            file_path = 'ENSF 300/Museum Final Proj/Assignment Copy/Program-Folder+Files/data_entry.txt'
 
             with open(file_path, 'w') as file:
                 i=0
@@ -519,7 +520,7 @@ def main_menu():
         
         print("Initializing database...")
         print(60*"-")
-        filename = "ENSF 300/Copy of Museum Final Proj/Assignment Copy/sql-scripts-folder/museumDB.sql"
+        filename = "ENSF 300/Museum Final Proj/Assignment Copy/sql-scripts-folder/museumDB.sql"
         executeScriptsFromFile(connection, filename)
         print(60*"-")
         print("Successfully initialized!")
