@@ -1,3 +1,4 @@
+# ENSF_300_Calculator
 This is a copy of my first assignment in ENSF 300 with my group.
 We were tasked to complete a simple calculator similar to one we made in ENDG 233 and allowed to repurpose old code.
 The main challenge we experienced was using Git and Github to work collaboratively as we were all new to version control.
