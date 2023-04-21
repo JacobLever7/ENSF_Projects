@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Wordle</title>
+    <link rel="stylesheet" href="./style.css" />
+    
+  </head>
+  <body id="body">
+    <script src="./wordle.js"></script>
+    
+
+    
+    <nav class="box">
+      <!--null icon objects used to make even navbar spacing-->
+      <div class="icons">
+        <button class="invis" >&#9681;</button>
+        <button class="invis" >&#63;</button>
+        <button class="invis" >&#9432;</button>
+      </div>
+      
+      <!--title-->
+      <a class="center" href="index.html"><h1>Wordle</h1></a> 
+
+      <!--icons-->
+      <div class="icons">
+        <button id="theme_toggle" class="invis-clickable">&#9681;</button>
+        <button id="hint" class="invis-clickable" onclick="hintScreen();">&#63;</button>
+        <button id="instructions-button" class="invis-clickable" onclick="instructionScreen();">&#9432;</button>
+      </div>
+    </nav>
+
+    <div id="main-area">
+      <div id="main-section">
+        <!--board area-->
+        <div id="board"> 
+        </div>
+        <!--winner img-->
+        <div id="winner">
+        </div>
+        
+        <div id="restart"><button id="button" onclick="reset();">Start Over</button></div>
+      </div>
+        
+
+        
+      <div id="instructions" class="hidden">
+        <!--header-->
+        <h2>How To Play</h2>
+
+        <!--list-->
+        <ul>
+          <li>Start typing. The letters will appear in the boxes</li>
+          <li>Remove letters with <i>BACKSPACE</i></li>
+          <li>Hit <i>ENTER/RETURN</i> to submit an answer</li>
+          <li>Letters with green background are in the right spot</li>
+          <li>Letters with yellow background exist in the word, but are in the wrong spots</li>
+          <li>Letters with gray background do not exist in the word</li>
+          <li>If you need a hint click the <strong>?</strong> icon</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div id="announcement">
+    </div>
+    
+    <div class="footer">
+      <p> &copy; JL WORDLE CLONE 2023</p>
+    </div>
+  </body>
+</html>
