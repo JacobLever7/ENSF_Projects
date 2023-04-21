@@ -2,4 +2,4 @@ This is a copy of a partnered assignment which was to replicate the Notion note 
 
 This Assignment was apart of ENSF 381 which was taken during the second semester of my second year at the Universtity of Calgary and was our 6th assignment.
 
-The website is available [HERE]() if you would like to try it out!
+The website is available [HERE](https://main--precious-lily-ce0beb.netlify.app/) if you would like to try it out!
