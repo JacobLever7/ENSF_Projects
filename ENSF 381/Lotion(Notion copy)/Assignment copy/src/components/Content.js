@@ -12,7 +12,7 @@ function Content({ notes, setNotes, formatDate, profile }) {
         const answer = window.confirm("Are you sure?");
         if (answer) {
             const res = await fetch(
-                `https://k35teunkrvfreikimtux63gkbi0qndgl.lambda-url.ca-central-1.on.aws?email=${profile.email}&id=${noteId}`,
+                `https://hl36v36yrefcdg6ukjhueikuri0olfud.lambda-url.ca-central-1.on.aws?email=${profile.email}&id=${noteId}`,
                 {
                   method: "DELETE",
                   headers: {

@@ -15,7 +15,7 @@ function EditContent({ notes, setNotes, profile }) {
         const answer = window.confirm("Are you sure?");
         if (answer) {
             const res = await fetch(
-                `https://k35teunkrvfreikimtux63gkbi0qndgl.lambda-url.ca-central-1.on.aws?email=${profile.email}&id=${noteId}`,
+                `https://hl36v36yrefcdg6ukjhueikuri0olfud.lambda-url.ca-central-1.on.aws?email=${profile.email}&id=${noteId}`,
                 {
                   method: "DELETE",
                   headers: {
@@ -64,7 +64,7 @@ function EditContent({ notes, setNotes, profile }) {
         });
         const noteToChange = editedNotes.find((note) => note.id === noteId);
         const res = await fetch(
-            "https://pm2cwbltpqmciyjmayzei5qk540vfqcr.lambda-url.ca-central-1.on.aws/",
+            "https://ulqq3aarmkfh4nohu7b7l5vg6a0ktubi.lambda-url.ca-central-1.on.aws/",
             {
               method: "POST",
               headers: {

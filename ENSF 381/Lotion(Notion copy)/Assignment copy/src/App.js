@@ -50,7 +50,7 @@ function App() {
     {
       const loadNotes = async () => {
         const res = await fetch(
-          `https://q3ngnu5u2d7mkoawc4xiylrgpq0dlhqa.lambda-url.ca-central-1.on.aws?email=${profile.email}`,
+          `https://dg6rtp3h56g6axk4zre3wwt2ri0qzbox.lambda-url.ca-central-1.on.aws?email=${profile.email}`,
           {
             method: "GET",
             headers: {
@@ -113,7 +113,7 @@ function App() {
       date: newDate,
     };
     const res = await fetch(
-      "https://pm2cwbltpqmciyjmayzei5qk540vfqcr.lambda-url.ca-central-1.on.aws/",
+      "https://ulqq3aarmkfh4nohu7b7l5vg6a0ktubi.lambda-url.ca-central-1.on.aws/",
       {
         method: "POST",
         headers: {
