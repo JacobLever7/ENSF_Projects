@@ -2,7 +2,7 @@
 
 Hello! this is a copy of my groups final project in ENSF 480! In this project we were tasked with designing an implementation of a Airline Booking System. Screenshots of our UML designs will be placed below. 
 
-This file [ENSF_480_TERM_PROJECT](ENSF 480/Final Project-Airline booking System/ENSF 480 Term Project - Fall 2023.pdf) contains the instructions and requirements for this project.
+This file [ENSF_480_TERM_PROJECT](ENSF-480-Term-Project-Fall-2023.pdf) contains the instructions and requirements for this project.
 
 Implementation uses the following tools:
 ![TOOLS](ENSF 480/Final Project-Airline booking System/Images/Tools.png?raw=true)
