@@ -5,14 +5,20 @@ Hello! This is a copy of my group's term project in SENG 401 at the University o
 Implementation uses the following tools:
 
 <img src="Images/aws.jpeg?raw=true" alt="AWS" height="150">
-<img src="Images/react.png?raw=true" alt="React" height="150">
-<img src="Images/cloudinary.jpeg?raw=true" alt="Cloudinary" height="150" >
-<img src="Images/google.webp?raw=true" alt="Google" height="150">
+<span style="font-size: 12px;">DynamoDB & Lambda Functions</span>
 
-<span style="font-size: 12px; margin-right: 90px">DynamoDB & Lambda Functions</span>
-<span style="font-size: 12px; margin-right: 235px">React</span>
-<span style="font-size: 12px; margin-right: 90px">Dynamic Image Storage</span>
+<img src="Images/react.png?raw=true" alt="React" height="150">
+<span style="font-size: 12px;">React</span>
+
+<img src="Images/cloudinary.jpeg?raw=true" alt="Cloudinary" height="150" >
+<span style="font-size: 12px;">Dynamic Image Storage</span>
+
+<img src="Images/google.webp?raw=true" alt="Google" height="150">
 <span style="font-size: 12px;">Google Login API</span>
+
+
+
+
 
 
 ## Project Architecture Diagram
