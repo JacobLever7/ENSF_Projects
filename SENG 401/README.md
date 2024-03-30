@@ -6,14 +6,11 @@ Implementation uses the following tools:
 
 <img src="Images/aws.jpeg?raw=true" alt="AWS" height="150"> <span style="font-size: 12px;">DynamoDB & Lambda Functions</span>
 
-<img src="Images/react.png?raw=true" alt="React" height="150">
-<span style="font-size: 12px;">React</span>
+<img src="Images/react.png?raw=true" alt="React" height="150"> <span style="font-size: 12px;">React</span>
 
-<img src="Images/cloudinary.jpeg?raw=true" alt="Cloudinary" height="150" >
-<span style="font-size: 12px;">Dynamic Image Storage</span>
+<img src="Images/cloudinary.jpeg?raw=true" alt="Cloudinary" height="150" > <span style="font-size: 12px;">Dynamic Image Storage</span>
 
-<img src="Images/google.webp?raw=true" alt="Google" height="150">
-<span style="font-size: 12px;">Google Login API</span>
+<img src="Images/google.webp?raw=true" alt="Google" height="150"> <span style="font-size: 12px;">Google Login API</span>
 
 
 
